@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+@media screen and (min-width: 1280px) {
+	.header__menu {
+		width: 1280px;
+		margin: 0 auto;
+	}
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+._container {
+    max-width: 1046px;
+    margin: 0px auto;
+}
+
+/* ШАПКА-------------------------------------------------------------------------------------------------------- */
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+.header__container {
+    display: flex;
+    min-height: 104px;
+    align-items: center;
+}
+._container {
+    max-width: 1046px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+.header__logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: inherit;
+}
+.header__menu {
+    margin: 0px 0px 0px 133px;
+    
+}
+.menu {
+    padding: 15px 0;
+}
+.menu__list {
+    flex-wrap: wrap;
+    display: flex;
+}
+.menu__item {
+    list-style-type: none;
+    margin: 0px 0px 0px 21px;
+}
+.menu__item:not(:last-child) {
+    margin: 0px 21px 0px 21px;
+}
+.menu__link {
+    color: #737373;
+    line-height: 171%;
+    font-weight: 600;
+
+}
