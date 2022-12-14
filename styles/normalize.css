@@ -20,22 +20,14 @@ html {
  * Remove the margin in all browsers.
  */
 
-body {
-  margin: 0;
-  height: 100%;
-  line-height: 1;
-  font-size: 15px;
-  font-weight: 500;
-  color: #252b42;
-  font-family: Montserrat;
-}
+
 
 /**
  * Render the `main` element consistently in IE.
  */
 
 main {
-  display: block;
+  
 }
 
 /**

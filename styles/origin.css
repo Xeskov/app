@@ -8,9 +8,24 @@
 		margin: 0 auto;
 	}
 }
+
+body {
+    margin: 0;
+    height: 100%;
+    line-height: 1;
+    font-size: 15px;
+    font-weight: 500;
+    color: #252b42;
+    font-family: Montserrat;
+  }
+
+
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 ._container {
     max-width: 1046px;
@@ -64,4 +79,23 @@
     line-height: 171%;
     font-weight: 600;
 
+}
+
+/* MAIN---------------------------------------------------------------------------------------------- */
+.main {
+    flex: 1 0 auto;
+}
+
+
+
+
+
+
+
+
+/* ПОДВАЛ---------------------------------------------------------------------------------------------- */
+.footer {
+    display: flex;
+    flex: 0 0 auto;
+    
 }
